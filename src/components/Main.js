@@ -33,6 +33,7 @@ export default class Main extends Component {
       this.setState({
         tarefas: [...novasTarefas],
         index: -1,
+        novaTarefa: "",
       });
     } else {
       this.setState({
